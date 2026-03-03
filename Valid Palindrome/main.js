@@ -25,7 +25,7 @@
 // 1 <= s.length <= 1000
 // s is made up of only printable ASCII characters.
 
-// Solution:
+// Solution: .replace(/[^a-zA-Z0-9]/g, '')
 
 class Solution {
     /**
